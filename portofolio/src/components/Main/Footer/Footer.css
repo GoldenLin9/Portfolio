@@ -1,0 +1,31 @@
+.footer-content {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid black;
+    margin-top: 20px;
+
+
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        list-style-type: none;
+        margin: 0 auto;
+
+        li {
+            margin: 0 10px;
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+    
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
