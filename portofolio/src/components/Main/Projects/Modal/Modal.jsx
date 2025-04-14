@@ -2,9 +2,6 @@ import "./Modal.css";
 import React, { useEffect, useRef } from "react";
 
 const Modal = ({ isModalOpen, project, onClose }) => {
-    console.log("opining modal?")
-    console.log("YESS")
-    console.log(isModalOpen)
 
     const modalRef = useRef(null);
 

@@ -8,7 +8,6 @@ const Projects = () => {
     const [currentProject, setCurrentProject] = useState(null);
 
     const openProjectModal = (project) => {
-        console.log("Project clicked:", project);
         setCurrentProject(project);
         setIsModalOpen(true);
     }
@@ -18,22 +17,22 @@ const Projects = () => {
             title: "Resume",
             shortDescription: "This is my resume that lists my education, skills, experiences, and projects. Within each project or experience, you can also find the github link to the project.",
             description: "This is my resume that lists my education, skills, experiences, and projects. Within each project or experience, you can also find the github link to the project.",
-            image: "/images/resume.png",
-            link: "/resume.pdf"
+            image: process.env.PUBLIC_URL + "/images/resume.jpg",
+            link: process.env.PUBLIC_URL + "/resume.pdf"
         },
         {
             title: "Cover Letter",
             shortDescription: "This is my cover letter for Relativity Space. It explains why I am a good candidate for this position. I also go into detail about my projects and how they relate to the position.",
             description: "This is my cover letter for Relativity Space. It explains why I am a good candidate for this position. I also go into detail about my projects and how they relate to the position.",
-            image: "/images/cover_letter.png",
-            link: "/cover_letter.pdf"
+            image: process.env.PUBLIC_URL + "/images/cover_letter.jpg",
+            link: process.env.PUBLIC_URL + "/cover_letter.pdf"
         },
         {
             title: "Research Proposal",
             shortDescription: "This is my research proposal for the University of Central Florida. This paper is a proposal to research predicting the duration and onset of Rapid Intsensification in Tropical Cyclones. I talk about this problem and it's approac to solvint it with an AI based solution.",
             description: "This is my research proposal for the University of Central Florida. This paper is a proposal to research predicting the duration and onset of Rapid Intsensification in Tropical Cyclones. I talk about this problem and it's approac to solvint it with an AI based solution.",
-            image: "/images/research.png",
-            link: "/research.pdf"
+            image: process.env.PUBLIC_URL + "/images/research.jpg",
+            link: process.env.PUBLIC_URL + "/research.pdf"
         }
     ]
     return (
