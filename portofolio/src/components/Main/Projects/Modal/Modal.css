@@ -32,6 +32,14 @@
                 color: var(--highlight-color);
             }
         }
+
+        .modal-description {
+            padding: 20px;
+            font-size: 1.2rem;
+            color: var(--text-color);
+            text-align: center;
+        }
+        
         .modal-title {
             font-size: 2rem;
             color: var(--primary-color);

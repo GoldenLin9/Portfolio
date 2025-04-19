@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaMailBulk } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import './Footer.css';
 
@@ -7,19 +7,24 @@ const Footer = () => {
         <footer>
             <div className="footer-content">
 
+                <h1 className="title">Contact Me!</h1>
                 
-                <ul id = "contacts" className="contacts">
+                <ul id = "contact" className="contact">
 
                     <li> 
-                        <a href = "https://www.linkedin.com/in/goldenlin/" target="_blank" rel="noopener noreferrer">
+                        LinkedIn: <a href = "https://www.linkedin.com/in/goldenlin/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="icon" />
                         </a>
                     </li>
 
                     <li>
-                        <a href = "https://github.com/GoldenLin9" target="_blank" rel="noopener noreferrer">
+                        GitHub: <a href = "https://github.com/GoldenLin9" target="_blank" rel="noopener noreferrer">
                             <FaGithub className="icon" />
                         </a>
+                    </li>
+
+                    <li>
+                        Email: goldenlin0909@gmail.com
                     </li>
 
                 </ul>

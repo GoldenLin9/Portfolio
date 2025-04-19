@@ -15,8 +15,8 @@ const Projects = () => {
     const projects = [
         {
             title: "Resume",
-            shortDescription: "This is my resume that lists my education, skills, experiences, and projects. Within each project or experience, you can also find the github link to the project.",
-            description: "This is my resume that lists my education, skills, experiences, and projects. Within each project or experience, you can also find the github link to the project.",
+            shortDescription: "This is my resume that lists my education, skills, experiences, and projects. Within each project or experience, you can also find a GitHub link related to that experience.",
+            description: "This is my resume that lists my education, skills, experiences, and projects. Within each project or experience, you can also find a GitHub link related to that experience.",
             image: process.env.PUBLIC_URL + "/images/resume.jpg",
             link: process.env.PUBLIC_URL + "/resume.pdf"
         },
@@ -29,10 +29,17 @@ const Projects = () => {
         },
         {
             title: "Research Proposal",
-            shortDescription: "This is my research proposal for the University of Central Florida. This paper is a proposal to research predicting the duration and onset of Rapid Intsensification in Tropical Cyclones. I talk about this problem and it's approac to solvint it with an AI based solution.",
-            description: "This is my research proposal for the University of Central Florida. This paper is a proposal to research predicting the duration and onset of Rapid Intsensification in Tropical Cyclones. I talk about this problem and it's approac to solvint it with an AI based solution.",
+            shortDescription: "This document is my research proposal for the University of Central Florida. It researches an AI solution that predicts the onset and duration of Rapid Intensification in Tropical Cyclones. It also goes into detail about the importance of the problem, previously done research related to the topic, and the machine learning based solution to solving this problem.",
+            description: "This document is my research proposal for the University of Central Florida. It researches an AI solution that predicts the onset and duration of Rapid Intensification in Tropical Cyclones. It also goes into detail about the importance of the problem, previously done research related to the topic, and the machine learning based solution to solving this problem.",
             image: process.env.PUBLIC_URL + "/images/research.jpg",
             link: process.env.PUBLIC_URL + "/research.pdf"
+        },
+        {
+            title: "Instructions",
+            shortDescription: "This document detail a set of instructions on how to set up an AWS EC2 instance. These instructions are meant for a beginner who has never used AWS before. It goes into detail about how to set up an account, create an instance, and connect to it using SSH.",
+            description: "This document detail a set of instructions on how to set up an AWS EC2 instance. These instructions are meant for a beginner who has never used AWS before. It goes into detail about how to set up an account, create an instance, and connect to it using SSH.",
+            image: process.env.PUBLIC_URL + "/images/instructions.jpg",
+            link: process.env.PUBLIC_URL + "/instructions.pdf"
         }
     ]
     return (

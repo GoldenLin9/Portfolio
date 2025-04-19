@@ -9,7 +9,7 @@ const About = () => {
         Hello, my name is Golden, and I’m a Junior studying Computer Science at
         the University of Central Florida. My passion for programming comes from
         the unique and exciting challenges that arise when building impactful
-        software that people around the world can use.
+        software people around the world can use.
       </p>
 
       <p className="about-me-paragraph">
@@ -19,7 +19,7 @@ const About = () => {
         ICPC Regionals (Division II). I also work on campus, developing software
         that helps both students and professors in their day-to-day academic
         life. I’m currently building a tree traversal game using React to help
-        Computer Science students learn fundamental concepts. Additionally, this
+        students learn fundamental Computer Science concepts. Additionally, this
         summer, I’ll be joining Amazon as a Software Development Engineer
         Intern!
       </p>

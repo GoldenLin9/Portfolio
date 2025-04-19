@@ -50,5 +50,10 @@
             background-color: var(--highlight-color);
             border-radius: 5px;
         }
+
+        #about-btn-link {
+            text-decoration: none;
+            color: white;
+        }
     }
 }

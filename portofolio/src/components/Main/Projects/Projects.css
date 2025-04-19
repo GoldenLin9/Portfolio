@@ -17,21 +17,9 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s;
             &:hover {
-                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                border: 1px solid var(--primary-color);
             }
-
-            /* .project-image {
-                background-image: url('/public/images/resume.jpg');
-                background-size: cover;
-                background-position: center;
-                height: 200px;
-                border-radius: 5px;
-                margin-bottom: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                transition: transform 0.3s;
-                width: 100%;
-
-            } */
     
             .project-title {
                 font-size: 1.5rem;

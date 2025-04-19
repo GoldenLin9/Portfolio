@@ -13,20 +13,16 @@ const Header = () => {
                 </li>
 
                 <li>
-                    <a href="#work">Work</a>
-                </li>
-
-                <li>
                     <a href="#projects">Projects</a>
                 </li>
 
                 <li>
-                    <a href="#contacts">Contacts</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
                 
                     <button className="resume-btn">
-                        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href= {process.env.PUBLIC_URL + "/resume.pdf"} target="_blank" rel="noopener noreferrer">
                             Resume
                         </a>
                     </button>
